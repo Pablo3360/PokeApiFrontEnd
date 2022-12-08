@@ -62,7 +62,7 @@ function CreatePokemon() {
         <form className={style.contenedor} onSubmit={(e) => handleSubmit(e)}>
 
           <div className={style.element}>
-            <label htmlFor='name'>Nombre: {error.name}</label>
+            <label htmlFor='name'>Nombre: <span>{error.name}</span></label>
             <input
               type='text'
               name='name'
@@ -74,7 +74,7 @@ function CreatePokemon() {
           </div>
 
           <div className={style.element}>
-            <label htmlFor='typeId'>Tipo: {error.typeId}</label>
+            <label htmlFor='typeId'>Tipo: <span>{error.typeId}</span></label>
               <select name='typeId' onChange={ (e) => handleChange(e) } >
                 {
                   types.map( type => 
@@ -87,7 +87,7 @@ function CreatePokemon() {
           </div>
 
           <div className={style.element}>
-            <label htmlFor='health'>Vida: {error.health}</label>
+            <label htmlFor='health'>Vida: <span>{error.health}</span></label>
               <input
                 type='number'
                 name='health'
@@ -99,7 +99,7 @@ function CreatePokemon() {
           </div>
 
           <div className={style.element}>
-            <label htmlFor='attack'>Ataque: {error.attack}</label>
+            <label htmlFor='attack'>Ataque: <span>{error.attack}</span></label>
               <input
                 type='number'
                 name='attack'
@@ -111,7 +111,7 @@ function CreatePokemon() {
           </div>
 
           <div className={style.element}>
-            <label htmlFor='defense'>Defensa: {error.defense}</label>
+            <label htmlFor='defense'>Defensa: <span>{error.defense}</span></label>
               <input
                 type='number'
                 name='defense'
@@ -123,7 +123,7 @@ function CreatePokemon() {
           </div>
 
           <div className={style.element}>
-            <label htmlFor='speed'>Velocidad: {error.speed}</label>
+            <label htmlFor='speed'>Velocidad: <span>{error.speed}</span></label>
               <input
                 type='number'
                 name='speed'
@@ -135,7 +135,7 @@ function CreatePokemon() {
           </div>
 
           <div className={style.element}>
-            <label htmlFor='height'>Altura: {error.height}</label>
+            <label htmlFor='height'>Altura: <span>{error.height}</span></label>
               <input
                 type='number'
                 name='height'
@@ -147,7 +147,7 @@ function CreatePokemon() {
           </div>
 
           <div className={style.element}>
-            <label htmlFor='weight'>Peso: {error.weight}</label>
+            <label htmlFor='weight'>Peso: <span>{error.weight}</span></label>
               <input
                 type='number'
                 name='weight'
@@ -159,7 +159,7 @@ function CreatePokemon() {
           </div>
 
           <div className={style.element}>
-            <label htmlFor='img'>Imagen: {error.img}</label>
+            <label htmlFor='img'>Imagen: <span>{error.img}</span></label>
               <input
                 type='text'
                 name='img'

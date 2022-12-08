@@ -31,7 +31,6 @@ export function validate(value, inputName) {
       if(value > 100 || value <0) return error = 'Invalido. [0-100]';
       return error='';
 
-
   }
 };
 

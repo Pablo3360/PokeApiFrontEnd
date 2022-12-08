@@ -32,6 +32,12 @@
     
 }
 
+.createPokemon .element span {
+    font-size: 15px;
+    color: saddlebrown;
+    margin: 5px;
+}
+
 .createPokemon .element input, select {
     width: 100%;
     border-color: rgb(187, 183, 183);

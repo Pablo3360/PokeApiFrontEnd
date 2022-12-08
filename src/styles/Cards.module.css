@@ -1,0 +1,26 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination .buttons {
+  display: flex;
+}
+
+.pagination p {
+  font-size: 18px;
+}
+
+.pagination button {
+  font-size: 18px;
+  width: 80px;
+  height: max-content;
+  border-radius: 5px;
+  border-color: rgb(187, 183, 183);
+}

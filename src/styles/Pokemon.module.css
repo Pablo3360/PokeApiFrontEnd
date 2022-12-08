@@ -1,0 +1,60 @@
+.pokemon {
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    border-radius: 4px;
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.name {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+.button {
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+}
+
+.button button {
+    color: gainsboro;
+    margin: 15px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1b3039;
+    cursor: pointer;
+}
+
+.img {
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.img img {
+    width: 250px;
+    height: 250px;
+    cursor: default;
+}
+
+.data {
+    grid-column: 3/4;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.types {
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,39 @@
+.filters {
+    background-color: rgb(180, 180, 180);
+    padding: 20px;
+    border-radius: 4px;
+    grid-column: span 1;
+}
+
+.filters form {
+    margin: 10px 0px 10px 0px;
+    padding-left: 10px;
+}
+
+.filters form input {
+    border-color: rgb(187, 183, 183);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.filters form p {
+    font-size: 15px;
+    color: saddlebrown;
+    margin: 5px;
+}
+
+.filters form button {
+    font-size: 18px;
+    width: 80px;
+    border-radius: 5px;
+    border-color: rgb(187, 183, 183);
+}
+
+.filters form select {
+    font-size: 18px;
+    width: 125px;
+    border-radius: 5px;
+    border-color: rgb(187, 183, 183);
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+}

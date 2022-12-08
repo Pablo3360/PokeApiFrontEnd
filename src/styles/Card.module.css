@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border: solid 2px;
+  border-color: #1b3039;
+  border-radius: 6px;
+  width: 230px;
+  background-color: gainsboro;
+}
+  
+.cardTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cardData {
+  display: flex;
+  align-items: center;
+}
+
+.types {
+  display: flex;
+}
+
+.types p {
+  margin: 10px;
+}
+
+.attack {
+  margin: 10px;
+  font-size: x-large;
+}
+
+img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}

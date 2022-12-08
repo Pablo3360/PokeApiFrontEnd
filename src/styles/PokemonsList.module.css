@@ -1,0 +1,6 @@
+.pokemonsList {
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    border-radius: 4px;
+    grid-column: span 4;
+  }

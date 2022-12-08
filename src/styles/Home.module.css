@@ -1,0 +1,42 @@
+.home {
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.home .message{
+    text-align: center;
+}
+
+.home .message h1{
+    font-size: 65px;
+    margin: 10px;
+}
+
+.home .message h5{
+    font-size: 20px;
+}
+
+.home .message .entry button {
+    color: gainsboro;
+    margin: 15px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1b3039;
+    cursor: pointer;
+}
+
+.home .message img {
+    width: 350px;
+    height: 100px;
+    cursor: default;
+}
+
+.home img {
+    width: 500px;
+    height: 500px;
+    cursor: default;
+}

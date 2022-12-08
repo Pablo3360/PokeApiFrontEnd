@@ -1,0 +1,31 @@
+.header {
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 20px 30px;
+}
+
+.header .logo img{
+    width: 250px;
+    height: 80px;
+}
+
+.header .navLinks li {
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .navLinks li:hover {
+    transform: scale(1.1);
+}
+
+.header .navLinks a {
+    color: #eceff1;
+    text-decoration: none;    
+}
+
+.header .navLinks li a:hover {
+    color: #ffbc0e;
+}

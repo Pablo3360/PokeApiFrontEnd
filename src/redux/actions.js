@@ -1,3 +1,4 @@
+import loading from '../images/loading.gif';
 
 export function getPokemonsResponse(pokemons){
     return {
@@ -53,6 +54,18 @@ export function getPokemonResponse(pokemon){
 
 export function getPokemon(name) {
     return function(dispatch) {
+        let pokemonLoader = {
+            name: 'Cargando',
+            types: [{name: 'Cargando'}],
+            health: 0,
+            attack: 0, 
+            defense: 0, 
+            speed: 0, 
+            height: 0, 
+            weight: 0, 
+            img: loading
+        }; 
+        dispatch(getPokemonResponse(pokemonLoader));
         fetch(`http://localhost:3001/pokemons?name=${name}`)
         .then(response => {
             if(response.status !== 200){

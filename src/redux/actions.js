@@ -12,6 +12,7 @@ export function getPokemons(value) {
         fetch(`http://localhost:3001/pokemons?totalPokemons=${value}`)
         .then(r => r.json())
         .then((pokemons) => dispatch(getPokemonsResponse(pokemons)))
+        .catch( error => console.log(error))
     }
 };
 

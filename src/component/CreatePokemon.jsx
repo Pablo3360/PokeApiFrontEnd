@@ -62,7 +62,7 @@ function CreatePokemon() {
         <form className={style.contenedor} onSubmit={(e) => handleSubmit(e)}>
 
           <div className={style.element}>
-            <label htmlFor='name'>Nombre: <span>{error.name}</span></label>
+            <label htmlFor='name'>Nombre*: <span>{error.name}</span></label>
             <input
               type='text'
               name='name'
@@ -74,7 +74,7 @@ function CreatePokemon() {
           </div>
 
           <div className={style.element}>
-            <label htmlFor='typeId'>Tipo: <span>{error.typeId}</span></label>
+            <label htmlFor='typeId'>Tipo*: <span>{error.typeId}</span></label>
               <select name='typeId' onChange={ (e) => handleChange(e) } >
                 {
                   types.map( type => 

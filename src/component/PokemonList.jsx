@@ -44,7 +44,7 @@ export default function PokemonList() {
   } else {
     return (
       <div className={style.pokemonsList} >
-        Sin Pokemones
+        Cargando Pokemones...
       </div>
     );
   };

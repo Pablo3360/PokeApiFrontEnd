@@ -19,6 +19,7 @@ export function validate(value, inputName) {
       return error;
 
     case 'img': 
+    // eslint-disable-next-line
     if (!/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/.test(value)) {
       error = 'Invalido';
     } else {
